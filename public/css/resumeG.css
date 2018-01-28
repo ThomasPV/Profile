@@ -1,0 +1,16 @@
+@import "base/_mixins.css";
+.ptv__profile{
+    &-name{
+        font-size: 2.3rem ;
+        transition: all ease 0.5s;
+    @mixin atSmall{
+        font-size: 4rem;
+        transition: all ease 0.5s;
+    }
+        @mixin atMedium{
+            font-size: 6rem;
+            transition: all ease 0.5s;
+        }
+    }
+
+}
