@@ -25,7 +25,7 @@ body{
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 96px;
   z-index: 99;
   border: none;
   outline: none;
@@ -38,4 +38,8 @@ body{
 
 #myBtn:hover {
   background-color: #bd5d38;
+}
+button.navbar-toggler {
+    position: relative;
+    right: 16%;
 }
